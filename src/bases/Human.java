@@ -22,6 +22,6 @@ public abstract class Human extends Living {
 		// 自分の攻撃力を1だけ減らす
 		setOffensive(getOffensive() - 1);
 		// コンソールにステータスを表示
-		System.out.println(name + "が" + weapon + "で攻撃！" + target.getName() + "に" + num + "のダメージを与えた。しかし自分の攻撃力も1減少した。");
+		System.out.println("「"+ name + "」" + "が" + "「"+  weapon + "」" + "で攻撃！" + "「" +target.getName()+ "」" + "に" + num + "のダメージを与えた。\nしかし自分の攻撃力も1減少した。\n");
 	}
 }

@@ -19,6 +19,6 @@ public abstract class Monster extends Living {
 		// 相手のHPをダメージ値だけ減らす
 		target.setHp(target.getHp() - num);
 		// コンソールにステータスを表示
-		System.out.println(name + "が" + weapon + "で攻撃！" + target.getName() + "に" + num + "のダメージを与えた。");
+		System.out.println("「" + name + "」" + "が" + "「" +weapon + "」" +"で攻撃！" + "「" +target.getName() + "」" +"に" + num + "のダメージを与えた。");
 	}
 }

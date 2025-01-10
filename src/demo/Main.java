@@ -97,6 +97,7 @@ public class Main {
 			// 人間グループに誰もいなくなれば、人間グループの敗北
 			if (humans.size() == 0) {
 				System.out.println("\n★★ ==== 決着がついた！！ ==== ★★\n");
+				System.out.println("\n#### モンスター達は勝利した！！ ####\n");
 				break;
 			}
 
